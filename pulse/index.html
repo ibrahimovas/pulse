@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse</title>
 
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/media.css">
@@ -148,16 +149,32 @@
             </div>
         </section>
 
-        <section class="catalog">
+        <section class="swipe">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="swiper">
-
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/slide_1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/slide_2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/slide_3.jpg" alt="">
+                                </div>
+                            </div>
                         </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <section class="catalog">
+            <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-4">
                         <h2 class="catalog__title title">Каталог пульсометров</h2>
@@ -196,7 +213,7 @@
 
                 <div class="row">
                     <div class="col-lg-2">
-                        <img src="img/feed_1.png" alt="" class="clients__photo">
+                        <img src="img/feed_1.png" alt="Ирина Иванченко" class="clients__photo">
                     </div>
 
                     <div class="col-lg-8">
@@ -206,9 +223,10 @@
                             <div class="clients__descr">
                                 Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр,
                                 который подошёл именно под мои цели и финансовые возможности. Через некоторое время
-                                решила обновить гаджет - не раздумывая обратилась туда же. <br>Новые цели - новый
+                                решила обновить гаджет - не раздумывая обратилась туда же. <br><br>
+                                Новые цели - новый
                                 гаджет!
-                                <br>Спасибо, RunSmart!
+                                <br><br>Спасибо, RunSmart!
                             </div>
                         </div>
                     </div>
@@ -216,7 +234,7 @@
 
                 <div class="row">
                     <div class="col-lg-2">
-                        <img src="img/feed_2.png" alt="" class="clients__photo">
+                        <img src="img/feed_2.png" alt="Иван Сёмочкин" class="clients__photo">
                     </div>
 
                     <div class="col-lg-8">
@@ -227,7 +245,9 @@
                                 Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. Купил
                                 пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку,
                                 научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план
-                                тренировок на месяц вперёд. С ними подготовился к своему первому полумарафону!
+                                тренировок на месяц вперёд.
+                                <br><br>
+                                С ними подготовился к своему первому полумарафону!
                                 Спасибо!!!
                             </div>
                         </div>
@@ -236,7 +256,7 @@
 
                 <div class="row">
                     <div class="col-lg-2">
-                        <img src="img/feed_3.png" alt="" class="clients__photo">
+                        <img src="img/feed_3.png" alt="Юлия Дашкина" class="clients__photo">
                     </div>
 
                     <div class="col-lg-8">
@@ -246,9 +266,12 @@
                             <div class="clients__descr">
                                 Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось
                                 тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила
-                                попробовать. Позвонила, ребята поинтересовались моими целями и подобрали очень
+                                попробовать.
+                                <br><br>
+                                Позвонила, ребята поинтересовались моими целями и подобрали очень
                                 интересный вариант со скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2
                                 полумарафона и несколько более коротких забегов и не намерена останавливаться!
+                                <br><br>
                                 Спасибо!!!
                             </div>
                         </div>
@@ -262,6 +285,9 @@
         </footer>
     </main>
 
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

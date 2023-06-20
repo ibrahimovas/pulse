@@ -158,6 +158,8 @@ font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
 .header__btn--big {
+    font-size: 16px;
+    line-height: 25px;
     width: 300px;
     height: 50px;
 }
@@ -238,7 +240,7 @@ font-family: 'Museo Sans Cyrl', sans-serif;
     padding: 5px 5px 5px 21px;
     width: 303px;
     height: 54px;
-    border: radius 5px;
+    border-radius: 5px;
     font-weight: 400;
     font-size: 14px;
     line-height: 66px;
@@ -254,6 +256,7 @@ font-family: 'Museo Sans Cyrl', sans-serif;
     padding-bottom: 60px;
 }
 
+
 .clients__name {
     font-weight: 700;
     font-size: 18px;
@@ -262,11 +265,13 @@ font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
 .clients__text {
-    padding-bottom: 60px;S
+    padding-left: 31px;
+    padding-bottom: 60px;
 }
 
 .clients__text span {
-    padding-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
@@ -274,8 +279,39 @@ font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
 .clients__descr {
+    max-width: 680px;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
     color: #0D0D0D;
+}
+
+.swipe {
+    padding: 107px 0 107px 0;
+}
+
+.swiper {
+    height: 527px;
+    max-width: 750px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #C70101;
+    background-repeat: no-repeat;
+    background-size: 30px 50px;
+    background-position: center;
+}
+
+.swiper-button-prev {
+    background-image: url(../icons/left.svg);
+}
+
+.swiper-button-next {
+    background-image: url(../icons/right.svg);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
 }
