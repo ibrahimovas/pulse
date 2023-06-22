@@ -20,10 +20,10 @@ max-width: 100%;
 
 body {
 min-width: 320px;
-font-family: 'Museo Sans Cyrl', sans-serif;
+font-family: 'MuseoModerno', sans-serif;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Museo Sans Cyrl';
     src: local('MuseoSansCyrl-500'),
         url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
@@ -48,7 +48,7 @@ font-family: 'Museo Sans Cyrl', sans-serif;
         url('../fonts/MuseoSansCyrl-700.woff') format('woff');
     font-weight: 700;
     font-style: normal;
-}
+} */
 
 .title {
     margin: 0;
@@ -315,3 +315,134 @@ font-family: 'Museo Sans Cyrl', sans-serif;
 .swiper-button-next:after {
     display: none;
 }
+
+
+.catalog {
+    padding-bottom: 78px;
+}
+
+.catalog__tabs {
+    padding-left: 0;
+    margin-top: 70px;
+    margin-bottom: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.catalog__tab {
+    width: 220px;
+    height: 50px;
+    border: 2px solid #D0D0D0;
+    color: #6B6B6B;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    text-transform: uppercase;
+    transform: skewX(-25deg);
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.catalog__tab:hover {
+    box-shadow: 3px 3px 20px #C70101;
+    border: none;
+}
+
+.catalog__tab div {
+    transform: skewX(25deg);
+}
+
+.catalog__tab--active {
+    border: none;
+    background-color: #C70101;
+    color: #FFF;
+}
+
+.catalog__content {
+    margin-top: 60px;
+}
+
+.catalog-item {
+    width: 300px;
+    min-height: 440px;
+    border: 2px solid #E8E8E8;
+    padding: 20px 20px 26px 20px;
+}
+
+.catalog-item__img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 200px;
+}
+
+.catalog-item__subtitle {
+    margin-top: 20px;
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.catalog-item__descr {
+    margin-top: 15px;
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.catalog-item__link {
+    display: block;
+    margin-top: 10px;
+    color: #C70101;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+.catalog-item__old-price {
+    color: #555;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    text-decoration-line: line-through;
+}
+
+.catalog-item__price {
+    color: #050505;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.catalog-item__btn {
+    width: 135px;
+    height: 44px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #C70101;
+    border: none;
+    border-radius: 2px;
+}
+
+.catalog-item hr {
+    border-bottom: none;
+    background-color: #E8E8E8;
+    margin-top: 19px;
+    margin-bottom: 21px;
+}
+
+.catalog-item__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
