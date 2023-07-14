@@ -1,0 +1,25 @@
+.swiper {
+    height: 527px;
+    max-width: 750px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #C70101;
+    background-repeat: no-repeat;
+    background-size: 30px 50px;
+    background-position: center;
+}
+
+.swiper-button-prev {
+    background-image: url(../icons/left.svg);
+}
+
+.swiper-button-next {
+    background-image: url(../icons/right.svg);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
+}

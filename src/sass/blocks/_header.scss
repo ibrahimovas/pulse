@@ -1,0 +1,79 @@
+.header {
+    padding: 21px 0 93px 0;
+    background: url(../img/main.jpg) center center/cover no-repeat;
+    &__official {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        color: #FFFFFF;
+        text-align: center;
+        span {
+            display: block;
+            font-size: 18px;
+            line-height: 29px;
+        }
+    }
+    &__contacts {
+        padding-bottom: 91px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-align: right;
+    }
+    &__phone {
+        padding-bottom: 10px;
+    }
+    &__title {
+        margin: 0;
+        padding-bottom: 17px;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: right;
+    }
+    &__subtitle {
+        margin: 0;
+        padding-bottom: 63px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: right;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__icon {
+        text-align: center;
+        padding-bottom: 68px;
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 14px;
+            color: #FFFFFF;
+        }
+    }
+    
+}
+
+.catalog {
+    &__descr {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: right;
+        color: #FFFFFF;
+        span {
+            display: block;
+        }
+    }
+    &__link {
+        text-decoration: underline;
+    }
+}
+
+.icon {
+    padding-bottom: 20px;
+}

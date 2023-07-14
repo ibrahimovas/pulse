@@ -1,0 +1,27 @@
+.advantages {
+    padding: 70px 0 83px 0;
+    background-color: #F6F6F6;
+    &__title {
+        padding-bottom: 65px;
+    }
+    &__card {
+        text-align: center;
+    }
+    &__card-title {
+        padding-bottom: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        color: #0D0D0D;
+    }
+    &_card-descr {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__card-link {
+        color: $main-color;
+        text-decoration: underline;
+    }
+}
