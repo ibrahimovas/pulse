@@ -11,6 +11,7 @@ const swiper = new Swiper('.swiper', {
 
 });
 
+<<<<<<< HEAD
 (function($) {
   $(function() {
     
@@ -42,3 +43,17 @@ const swiper = new Swiper('.swiper', {
 //     target.classList.add('catalog__content_active')
 //   })
 // })
+=======
+
+(function($) {
+    $(function() {
+      
+      $('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+        $(this)
+          .addClass('active').siblings().removeClass('active')
+          .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+      });
+      
+    });
+    })(jQuery);
+>>>>>>> 11b4433c8f79e04ea1b3f7aed705bd3063f36202
