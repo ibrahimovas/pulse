@@ -27,7 +27,7 @@
             box-shadow: 3px 3px 20px #C70101;
             border: none;
         }
-        &--active {
+        &_active {
             border: none;
             background-color: #C70101;
             color: #FFF;
@@ -36,9 +36,12 @@
     }
     &__content {
         margin-top: 60px;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         justify-content: space-between;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 300px;
@@ -123,7 +126,7 @@
             margin-right: 0px;
             transform: translateX(-100%);
             transition: .5s all;
-            &--active {
+            &_active {
                 transform: translateX(0%);
                 margin-right: 20px;
             }
@@ -138,7 +141,7 @@
             padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
-            &--active {
+            &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
